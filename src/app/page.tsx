@@ -9,7 +9,7 @@ export default async function Home() {
         <Navbar />
         <div className="mt-32 max-w-3xl">
           <Typography size={"h1"} type="h1" weight={"bold"}>
-            Digitale Förderung, die deine Vision vorantreibt
+            Wir entwickeln Apps für Web, Mobile und Desktop.
           </Typography>
           <Typography className="mt-2 text-xl">
             Wie wir gemeinsam Hürden in Chancen verwandeln
