@@ -57,7 +57,7 @@ const Typography = <T extends ElementType = "p">({
   const Component = type ?? "p";
   return (
     <Component
-      className={cn(typographyVariants({ size, weight, textColor, className }))}
+      className={cn(typographyVariants({ size, weight, textColor }), className)}
       {...props}
     />
   );
